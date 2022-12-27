@@ -1,3 +1,19 @@
+:root {
+  --darkest-blue: #00171F;
+  --dark-blue: #003459;
+  --blue: #00A7E1;
+  --dark-gray: #66666E;
+  --middle-tone: #9999A1;
+  --dutch-white: #E6E6E9;
+  --tea-green:#C3E8BD;
+  --celadon-green: #9DDBAD;
+  --dark-sea-green: #8EB897;
+  --phthalo-green: #0A210F;
+  --videogame-green: rgb(52, 194, 59);
+  --imperial-red: #E63946;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -68,4 +84,91 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+#tab {
+  width: 100%;
+  margin: auto;
+  background-color;
+  
+  
+}
+
+#inTab {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+#time {
+  width: 10%;
+  background-color: var(--blue);
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#task {
+  width: 75%;
+  background-color: var(--dark-blue);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#saveBtn {
+  width: 10%;
+  background-color: var(--darkest-blue);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#saveButton {
+  background: #00A7E1;
+  background-image: -webkit-linear-gradient(top, #00A7E1, #003459);
+  background-image: -moz-linear-gradient(top, #00A7E1, #003459);
+  background-image: -ms-linear-gradient(top, #00A7E1, #003459);
+  background-image: -o-linear-gradient(top, #00A7E1, #003459);
+  background-image: linear-gradient(to bottom, #00A7E1, #003459);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+#saveButton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#grayButton {
+  background: gray;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
 }
